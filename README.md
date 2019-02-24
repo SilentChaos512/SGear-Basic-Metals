@@ -8,8 +8,8 @@ This pack is licensed under The Unlicense. You may modify and distribute as you 
 
 ### Download Latest
 
-1. Click the green "Clone or download" button
-2. Click "Download ZIP"
+1. Go to releases (https://github.com/SilentChaos512/SGear-Basic-Metals/releases)
+2. Download the ZIP file for the latest applicable version
 
 ### Minecraft 1.13.2+
 
