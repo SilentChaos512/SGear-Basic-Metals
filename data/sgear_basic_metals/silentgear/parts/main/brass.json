@@ -1,0 +1,91 @@
+{
+    "availability": {
+        "tier": 2
+    },
+    "crafting_items": {
+        "normal": {
+            "tag": "forge:ingots/brass"
+        },
+        "small": {
+            "size": 9,
+            "tag": "forge:nuggets/brass"
+        }
+    },
+    "name": {
+        "name": "Brass",
+        "translate": false
+    },
+    "stats": [
+        {
+            "name": "durability",
+            "value": 200
+        },
+        {
+            "name": "armor_durability",
+            "value": 8
+        },
+        {
+            "name": "enchantability",
+            "value": 14
+        },
+        {
+            "name": "harvest_level",
+            "value": 2
+        },
+        {
+            "name": "harvest_speed",
+            "value": 5
+        },
+        {
+            "name": "melee_damage",
+            "value": 1
+        },
+        {
+            "name": "magic_damage",
+            "value": 2.5
+        },
+        {
+            "name": "attack_speed",
+            "value": 0.1
+        },
+        {
+            "name": "armor",
+            "value": 12
+        },
+        {
+            "name": "armor_toughness",
+            "value": 0
+        },
+        {
+            "name": "magic_armor",
+            "value": 10
+        },
+        {
+            "name": "ranged_damage",
+            "value": 0
+        },
+        {
+            "name": "ranged_speed",
+            "value": 0.2
+        },
+        {
+            "name": "chargeability",
+            "value": 1.6
+        }
+    ],
+    "textures": {
+        "all": {
+            "broken_color": "#FFAA33",
+            "normal_color": "#FFAA33",
+            "texture_domain": "silentgear",
+            "texture_suffix": "generic_hc"
+        }
+    },
+    "traits": [
+        {
+            "level": 2,
+            "name": "silentgear:malleable"
+        }
+    ],
+    "type": "silentgear:main"
+}

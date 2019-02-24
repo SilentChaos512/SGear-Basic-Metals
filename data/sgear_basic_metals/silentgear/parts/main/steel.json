@@ -1,0 +1,91 @@
+{
+    "availability": {
+        "tier": 2
+    },
+    "crafting_items": {
+        "normal": {
+            "tag": "forge:ingots/steel"
+        },
+        "small": {
+            "size": 9,
+            "tag": "forge:nuggets/steel"
+        }
+    },
+    "name": {
+        "name": "Steel",
+        "translate": false
+    },
+    "stats": [
+        {
+            "name": "durability",
+            "value": 1000
+        },
+        {
+            "name": "armor_durability",
+            "value": 27
+        },
+        {
+            "name": "enchantability",
+            "value": 9
+        },
+        {
+            "name": "harvest_level",
+            "value": 2
+        },
+        {
+            "name": "harvest_speed",
+            "value": 8
+        },
+        {
+            "name": "melee_damage",
+            "value": 4
+        },
+        {
+            "name": "magic_damage",
+            "value": 1.5
+        },
+        {
+            "name": "attack_speed",
+            "value": -0.2
+        },
+        {
+            "name": "armor",
+            "value": 20
+        },
+        {
+            "name": "armor_toughness",
+            "value": 4
+        },
+        {
+            "name": "magic_armor",
+            "value": 6
+        },
+        {
+            "name": "ranged_damage",
+            "value": 2.5
+        },
+        {
+            "name": "ranged_speed",
+            "value": 0
+        },
+        {
+            "name": "chargeability",
+            "value": 1.0
+        }
+    ],
+    "textures": {
+        "all": {
+            "broken_color": "#606060",
+            "normal_color": "#606060",
+            "texture_domain": "silentgear",
+            "texture_suffix": "generic_hc"
+        }
+    },
+    "traits": [
+        {
+            "level": 2,
+            "name": "silentgear:malleable"
+        }
+    ],
+    "type": "silentgear:main"
+}

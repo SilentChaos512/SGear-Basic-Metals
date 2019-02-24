@@ -11,6 +11,10 @@ This pack is licensed under The Unlicense. You may modify and distribute as you 
 1. Click the green "Clone or download" button
 2. Click "Download ZIP"
 
+### Minecraft 1.13.2+
+
+Simply place the downloaded ZIP file in your world's `datapacks` folder
+
 ### Minecraft 1.12.2
 
 1. Extract the contents of the `materials` folder into `<MC Instance Folder>/config/silentchaos512/silentgear/materials`

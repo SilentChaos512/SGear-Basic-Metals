@@ -1,0 +1,91 @@
+{
+    "availability": {
+        "tier": 2
+    },
+    "crafting_items": {
+        "normal": {
+            "tag": "forge:ingots/aluminum"
+        },
+        "small": {
+            "size": 9,
+            "tag": "forge:nuggets/aluminum"
+        }
+    },
+    "name": {
+        "name": "Aluminum",
+        "translate": false
+    },
+    "stats": [
+        {
+            "name": "durability",
+            "value": 300
+        },
+        {
+            "name": "armor_durability",
+            "value": 14
+        },
+        {
+            "name": "enchantability",
+            "value": 10
+        },
+        {
+            "name": "harvest_level",
+            "value": 2
+        },
+        {
+            "name": "harvest_speed",
+            "value": 7
+        },
+        {
+            "name": "melee_damage",
+            "value": 2.5
+        },
+        {
+            "name": "magic_damage",
+            "value": 1
+        },
+        {
+            "name": "attack_speed",
+            "value": 0.4
+        },
+        {
+            "name": "armor",
+            "value": 15
+        },
+        {
+            "name": "armor_toughness",
+            "value": 0
+        },
+        {
+            "name": "magic_armor",
+            "value": 3
+        },
+        {
+            "name": "ranged_damage",
+            "value": 1.5
+        },
+        {
+            "name": "ranged_speed",
+            "value": -0.1
+        },
+        {
+            "name": "chargeability",
+            "value": 1.1
+        }
+    ],
+    "textures": {
+        "all": {
+            "broken_color": "#FFFFFF",
+            "normal_color": "#FFFFFF",
+            "texture_domain": "silentgear",
+            "texture_suffix": "generic_hc"
+        }
+    },
+    "traits": [
+        {
+            "level": 2,
+            "name": "silentgear:malleable"
+        }
+    ],
+    "type": "silentgear:main"
+}
