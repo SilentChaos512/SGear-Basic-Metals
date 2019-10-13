@@ -11,9 +11,12 @@ This pack is licensed under The Unlicense. You may modify and distribute as you 
 1. Go to releases (https://github.com/SilentChaos512/SGear-Basic-Metals/releases)
 2. Download the ZIP file for the latest applicable version
 
-### Minecraft 1.13.2+
+### Minecraft 1.14.x+
 
-Simply place the downloaded ZIP file in your world's `datapacks` folder
+Simply place the downloaded ZIP file in one of these locations
+
+- In your world's `datapacks` folder
+- In `global_data_packs` (if you have the [Global Data Pack](https://www.curseforge.com/minecraft/mc-mods/drp-global-datapack) mod installed)
 
 ### Minecraft 1.12.2
 

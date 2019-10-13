@@ -1,48 +1,47 @@
 {
     "availability": {
-        "tier": 2
+        "tier": 3
     },
     "crafting_items": {
         "normal": {
-            "tag": "forge:ingots/brass"
+            "tag": "forge:ingots/aluminum_steel"
         },
         "small": {
             "size": 9,
-            "tag": "forge:nuggets/brass"
+            "tag": "forge:nuggets/aluminum_steel"
         }
     },
     "name": {
-        "name": "Brass",
-        "translate": false
+        "text": "Aluminum Steel"
     },
     "stats": [
         {
             "name": "durability",
-            "value": 200
+            "value": 800
         },
         {
             "name": "armor_durability",
-            "value": 8
+            "value": 25
         },
         {
             "name": "enchantability",
-            "value": 14
+            "value": 11
         },
         {
             "name": "harvest_level",
-            "value": 2
+            "value": 3
         },
         {
             "name": "harvest_speed",
-            "value": 5
+            "value": 8
         },
         {
             "name": "melee_damage",
-            "value": 1
+            "value": 4
         },
         {
             "name": "magic_damage",
-            "value": 2.5
+            "value": 1.5
         },
         {
             "name": "attack_speed",
@@ -50,43 +49,46 @@
         },
         {
             "name": "armor",
-            "value": 12
+            "value": 20
         },
         {
             "name": "armor_toughness",
-            "value": 0
+            "value": 2
         },
         {
             "name": "magic_armor",
-            "value": 10
+            "value": 6
         },
         {
             "name": "ranged_damage",
-            "value": 0
+            "value": 2
         },
         {
             "name": "ranged_speed",
-            "value": 0.2
+            "value": 0
         },
         {
             "name": "chargeability",
-            "value": 1.6
+            "value": 1.1
         }
     ],
     "textures": {
         "all": {
             "lite_texture": "high_contrast",
             "highlight": true,
-            "broken_color": "#FFAA33",
-            "normal_color": "#FFAA33",
+            "normal_color": "#98D9DA",
             "texture_domain": "silentgear",
             "texture_suffix": "generic_hc"
         }
     },
     "traits": [
         {
-            "level": 2,
+            "level": 3,
             "name": "silentgear:malleable"
+        },
+        {
+            "name": "silentgear:synergistic",
+            "level": 2
         }
     ],
     "type": "silentgear:main"

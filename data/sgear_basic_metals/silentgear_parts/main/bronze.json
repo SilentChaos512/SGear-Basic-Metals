@@ -4,29 +4,28 @@
     },
     "crafting_items": {
         "normal": {
-            "tag": "forge:ingots/nickel"
+            "tag": "forge:ingots/bronze"
         },
         "small": {
             "size": 9,
-            "tag": "forge:nuggets/nickel"
+            "tag": "forge:nuggets/bronze"
         }
     },
     "name": {
-        "name": "Nickel",
-        "translate": false
+        "text": "Bronze"
     },
     "stats": [
         {
             "name": "durability",
-            "value": 300
+            "value": 480
         },
         {
             "name": "armor_durability",
-            "value": 14
+            "value": 17
         },
         {
             "name": "enchantability",
-            "value": 13
+            "value": 12
         },
         {
             "name": "harvest_level",
@@ -34,27 +33,27 @@
         },
         {
             "name": "harvest_speed",
-            "value": 7
+            "value": 6
         },
         {
             "name": "melee_damage",
-            "value": 3
+            "value": 2.5
         },
         {
             "name": "magic_damage",
-            "value": 1.5
+            "value": 1
         },
         {
             "name": "attack_speed",
-            "value": 0.1
+            "value": 0.2
         },
         {
             "name": "armor",
-            "value": 12
+            "value": 17
         },
         {
             "name": "armor_toughness",
-            "value": 0
+            "value": 1
         },
         {
             "name": "magic_armor",
@@ -62,11 +61,15 @@
         },
         {
             "name": "ranged_damage",
-            "value": 0
+            "value": 2
         },
         {
             "name": "ranged_speed",
             "value": -0.2
+        },
+        {
+            "name": "rarity",
+            "value": 25
         },
         {
             "name": "chargeability",
@@ -77,16 +80,19 @@
         "all": {
             "lite_texture": "high_contrast",
             "highlight": true,
-            "broken_color": "#FFCC99",
-            "normal_color": "#FFCC99",
             "texture_domain": "silentgear",
-            "texture_suffix": "generic_hc"
+            "texture_suffix": "generic_hc",
+            "normal_color": "#D96121"
         }
     },
     "traits": [
         {
             "level": 2,
             "name": "silentgear:malleable"
+        },
+        {
+            "level": 1,
+            "name": "silentgear:adamant"
         }
     ],
     "type": "silentgear:main"

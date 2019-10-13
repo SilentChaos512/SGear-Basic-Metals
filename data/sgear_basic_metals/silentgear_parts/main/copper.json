@@ -1,60 +1,59 @@
 {
     "availability": {
-        "tier": 3
+        "tier": 1
     },
     "crafting_items": {
         "normal": {
-            "tag": "forge:ingots/titanium"
+            "tag": "forge:ingots/copper"
         },
         "small": {
             "size": 9,
-            "tag": "forge:nuggets/titanium"
+            "tag": "forge:nuggets/copper"
         }
     },
     "name": {
-        "name": "Titanium",
-        "translate": false
+        "text": "Copper"
     },
     "stats": [
         {
             "name": "durability",
-            "value": 1600
+            "value": 128
         },
         {
             "name": "armor_durability",
-            "value": 37
-        },
-        {
-            "name": "enchantability",
-            "value": 12
-        },
-        {
-            "name": "harvest_level",
-            "value": 3
-        },
-        {
-            "name": "harvest_speed",
             "value": 8
         },
         {
-            "name": "melee_damage",
-            "value": 6
+            "name": "enchantability",
+            "value": 15
         },
         {
-            "name": "magic_damage",
+            "name": "harvest_level",
             "value": 1
         },
         {
+            "name": "harvest_speed",
+            "value": 4
+        },
+        {
+            "name": "melee_damage",
+            "value": 1
+        },
+        {
+            "name": "magic_damage",
+            "value": 2
+        },
+        {
             "name": "attack_speed",
-            "value": 0
+            "value": 0.3
         },
         {
             "name": "armor",
-            "value": 24
+            "value": 10
         },
         {
             "name": "armor_toughness",
-            "value": 4
+            "value": 0
         },
         {
             "name": "magic_armor",
@@ -62,11 +61,15 @@
         },
         {
             "name": "ranged_damage",
-            "value": 1
+            "value": 0
         },
         {
             "name": "ranged_speed",
-            "value": -0.2
+            "value": 0.2
+        },
+        {
+            "name": "rarity",
+            "value": 15
         },
         {
             "name": "chargeability",
@@ -75,10 +78,9 @@
     ],
     "textures": {
         "all": {
-            "lite_texture": "high_contrast",
-            "highlight": false,
-            "broken_color": "#2E4CE6",
-            "normal_color": "#2E4CE6",
+            "lite_texture": "high_contrast_with_highlight",
+            "highlight": true,
+            "normal_color": "#FD804C",
             "texture_domain": "silentgear",
             "texture_suffix": "generic_hc"
         }
@@ -87,6 +89,10 @@
         {
             "level": 2,
             "name": "silentgear:malleable"
+        },
+        {
+            "level": 1,
+            "name": "silentgear:soft"
         }
     ],
     "type": "silentgear:main"

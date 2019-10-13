@@ -1,84 +1,83 @@
 {
     "availability": {
-        "tier": 2
+        "tier": 3
     },
     "crafting_items": {
         "normal": {
-            "tag": "forge:ingots/aluminum"
+            "tag": "forge:ingots/platinum"
         },
         "small": {
             "size": 9,
-            "tag": "forge:nuggets/aluminum"
+            "tag": "forge:nuggets/platinum"
         }
     },
     "name": {
-        "name": "Aluminum",
-        "translate": false
+        "text": "Platinum"
     },
     "stats": [
         {
             "name": "durability",
-            "value": 300
+            "value": 900
         },
         {
             "name": "armor_durability",
-            "value": 14
+            "value": 21
         },
         {
             "name": "enchantability",
-            "value": 10
+            "value": 14
         },
         {
             "name": "harvest_level",
-            "value": 2
-        },
-        {
-            "name": "harvest_speed",
-            "value": 7
-        },
-        {
-            "name": "melee_damage",
-            "value": 2.5
-        },
-        {
-            "name": "magic_damage",
-            "value": 1
-        },
-        {
-            "name": "attack_speed",
-            "value": 0.4
-        },
-        {
-            "name": "armor",
-            "value": 15
-        },
-        {
-            "name": "armor_toughness",
-            "value": 0
-        },
-        {
-            "name": "magic_armor",
             "value": 3
         },
         {
+            "name": "harvest_speed",
+            "value": 12
+        },
+        {
+            "name": "melee_damage",
+            "value": 4
+        },
+        {
+            "name": "magic_damage",
+            "value": 4
+        },
+        {
+            "name": "attack_speed",
+            "value": 0
+        },
+        {
+            "name": "armor",
+            "value": 18
+        },
+        {
+            "name": "armor_toughness",
+            "value": 2
+        },
+        {
+            "name": "magic_armor",
+            "value": 12
+        },
+        {
             "name": "ranged_damage",
-            "value": 1.5
+            "value": 1
         },
         {
             "name": "ranged_speed",
-            "value": -0.1
+            "value": 0
         },
         {
             "name": "chargeability",
-            "value": 1.1
+            "value": 1.2
         }
     ],
     "textures": {
         "all": {
-            "lite_texture": "low_contrast",
+            "lite_texture": "high_contrast",
             "highlight": true,
-            "broken_color": "#FFFFFF",
-            "normal_color": "#FFFFFF",
+            "broken_color": "#B3B3FF",
+            "normal_color": "#B3B3FF",
             "texture_domain": "silentgear",
             "texture_suffix": "generic_hc"
         }

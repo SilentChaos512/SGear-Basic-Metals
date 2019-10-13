@@ -1,32 +1,31 @@
 {
     "availability": {
-        "tier": 2
+        "tier": 3
     },
     "crafting_items": {
         "normal": {
-            "tag": "forge:ingots/osmium"
+            "tag": "forge:ingots/invar"
         },
         "small": {
             "size": 9,
-            "tag": "forge:nuggets/osmium"
+            "tag": "forge:nuggets/invar"
         }
     },
     "name": {
-        "name": "Osmium",
-        "translate": false
+        "text": "Invar"
     },
     "stats": [
         {
             "name": "durability",
-            "value": 500
+            "value": 640
         },
         {
             "name": "armor_durability",
-            "value": 14
+            "value": 20
         },
         {
             "name": "enchantability",
-            "value": 10
+            "value": 13
         },
         {
             "name": "harvest_level",
@@ -38,31 +37,31 @@
         },
         {
             "name": "melee_damage",
-            "value": 4
+            "value": 3.5
         },
         {
             "name": "magic_damage",
-            "value": 2
+            "value": 3
         },
         {
             "name": "attack_speed",
-            "value": 0.1
-        },
-        {
-            "name": "armor",
-            "value": 17
-        },
-        {
-            "name": "armor_toughness",
             "value": 0
         },
         {
+            "name": "armor",
+            "value": 18
+        },
+        {
+            "name": "armor_toughness",
+            "value": 1
+        },
+        {
             "name": "magic_armor",
-            "value": 5
+            "value": 6
         },
         {
             "name": "ranged_damage",
-            "value": 1
+            "value": 2
         },
         {
             "name": "ranged_speed",
@@ -70,15 +69,14 @@
         },
         {
             "name": "chargeability",
-            "value": 1.1
+            "value": 1.2
         }
     ],
     "textures": {
         "all": {
-            "lite_texture": "high_contrast",
-            "highlight": true,
-            "broken_color": "#92A6B8",
-            "normal_color": "#92A6B8",
+            "lite_texture": "high_contrast_with_highlight",
+            "highlight": false,
+            "normal_color": "#C2CBB8",
             "texture_domain": "silentgear",
             "texture_suffix": "generic_hc"
         }
@@ -87,6 +85,10 @@
         {
             "level": 2,
             "name": "silentgear:malleable"
+        },
+        {
+            "level": 2,
+            "name": "silentgear:adamant"
         }
     ],
     "type": "silentgear:main"

@@ -1,48 +1,33 @@
 {
-    "availability": {
-        "tier": 2
-    },
-    "crafting_items": {
-        "normal": {
-            "tag": "forge:ingots/silver"
-        },
-        "small": {
-            "size": 9,
-            "tag": "forge:nuggets/silver"
-        }
-    },
-    "name": {
-        "name": "Silver",
-        "translate": false
-    },
+    "type": "silentgear:main",
     "stats": [
         {
             "name": "durability",
-            "value": 200
+            "value": 384
         },
         {
             "name": "armor_durability",
-            "value": 7
+            "value": 17
         },
         {
             "name": "enchantability",
-            "value": 16
+            "value": 14
         },
         {
             "name": "harvest_level",
-            "value": 1
-        },
-        {
-            "name": "harvest_speed",
-            "value": 6
-        },
-        {
-            "name": "melee_damage",
             "value": 2
         },
         {
+            "name": "harvest_speed",
+            "value": 7
+        },
+        {
+            "name": "melee_damage",
+            "value": 2.5
+        },
+        {
             "name": "magic_damage",
-            "value": 3
+            "value": 1
         },
         {
             "name": "attack_speed",
@@ -50,7 +35,7 @@
         },
         {
             "name": "armor",
-            "value": 14
+            "value": 13
         },
         {
             "name": "armor_toughness",
@@ -58,36 +43,58 @@
         },
         {
             "name": "magic_armor",
-            "value": 10
+            "value": 6
         },
         {
             "name": "ranged_damage",
-            "value": 1
+            "value": 0.5
         },
         {
             "name": "ranged_speed",
             "value": 0.1
         },
         {
+            "name": "rarity",
+            "value": 25
+        },
+        {
             "name": "chargeability",
-            "value": 1.5
+            "value": 0.9
         }
     ],
+    "traits": [
+        {
+            "name": "silentgear:malleable",
+            "level": 3
+        },
+        {
+            "name": "silentgear:adamant",
+            "level": 1
+        }
+    ],
+    "crafting_items": {
+        "normal": {
+            "tag": "forge:ingots/nickel"
+        },
+        "small": {
+            "size": 9,
+            "tag": "forge:nuggets/nickel"
+        }
+    },
+    "name": {
+        "text": "Nickel"
+    },
     "textures": {
         "all": {
             "lite_texture": "high_contrast",
             "highlight": true,
-            "broken_color": "#D4D4D4",
-            "normal_color": "#D4D4D4",
             "texture_domain": "silentgear",
-            "texture_suffix": "generic_hc"
+            "texture_suffix": "iron",
+            "normal_color": "#EFE87B"
         }
     },
-    "traits": [
-        {
-            "level": 2,
-            "name": "silentgear:malleable"
-        }
-    ],
-    "type": "silentgear:main"
+    "availability": {
+        "tier": 2,
+        "gear_blacklist": []
+    }
 }

@@ -12,21 +12,20 @@
         }
     },
     "name": {
-        "name": "Zinc",
-        "translate": false
+        "text": "Zinc"
     },
     "stats": [
         {
             "name": "durability",
-            "value": 200
+            "value": 192
         },
         {
             "name": "armor_durability",
-            "value": 6
+            "value": 10
         },
         {
             "name": "enchantability",
-            "value": 11
+            "value": 15
         },
         {
             "name": "harvest_level",
@@ -42,15 +41,15 @@
         },
         {
             "name": "magic_damage",
-            "value": 2.5
+            "value": 1
         },
         {
             "name": "attack_speed",
-            "value": 0.1
+            "value": 0
         },
         {
             "name": "armor",
-            "value": 12
+            "value": 11
         },
         {
             "name": "armor_toughness",
@@ -58,7 +57,7 @@
         },
         {
             "name": "magic_armor",
-            "value": 5
+            "value": 1
         },
         {
             "name": "ranged_damage",
@@ -66,27 +65,34 @@
         },
         {
             "name": "ranged_speed",
-            "value": -0.1
+            "value": 0
+        },
+        {
+            "name": "rarity",
+            "value": 15
         },
         {
             "name": "chargeability",
-            "value": 0.9
+            "value": 1.1
         }
     ],
     "textures": {
         "all": {
-            "lite_texture": "low_contrast",
-            "highlight": false,
-            "broken_color": "#DDCCFF",
-            "normal_color": "#DDCCFF",
+            "lite_texture": "high_contrast_with_highlight",
+            "highlight": true,
+            "normal_color": "#C9D3CE",
             "texture_domain": "silentgear",
-            "texture_suffix": "generic_hc"
+            "texture_suffix": "iron"
         }
     },
     "traits": [
         {
-            "level": 2,
+            "level": 1,
             "name": "silentgear:malleable"
+        },
+        {
+            "level": 2,
+            "name": "silentgear:soft"
         }
     ],
     "type": "silentgear:main"

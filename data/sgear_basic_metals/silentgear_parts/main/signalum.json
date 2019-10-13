@@ -1,48 +1,47 @@
 {
     "availability": {
-        "tier": 2
+        "tier": 4
     },
     "crafting_items": {
         "normal": {
-            "tag": "forge:ingots/invar"
+            "tag": "forge:ingots/signalum"
         },
         "small": {
             "size": 9,
-            "tag": "forge:nuggets/invar"
+            "tag": "forge:nuggets/signalum"
         }
     },
     "name": {
-        "name": "Invar",
-        "translate": false
+        "text": "Signalum"
     },
     "stats": [
         {
             "name": "durability",
-            "value": 450
+            "value": 800
         },
         {
             "name": "armor_durability",
-            "value": 17
+            "value": 25
         },
         {
             "name": "enchantability",
-            "value": 10
+            "value": 16
         },
         {
             "name": "harvest_level",
-            "value": 2
+            "value": 3
         },
         {
             "name": "harvest_speed",
-            "value": 7
+            "value": 13
         },
         {
             "name": "melee_damage",
-            "value": 2.5
+            "value": 3
         },
         {
             "name": "magic_damage",
-            "value": 3
+            "value": 4
         },
         {
             "name": "attack_speed",
@@ -50,7 +49,7 @@
         },
         {
             "name": "armor",
-            "value": 18
+            "value": 16
         },
         {
             "name": "armor_toughness",
@@ -58,7 +57,7 @@
         },
         {
             "name": "magic_armor",
-            "value": 6
+            "value": 4
         },
         {
             "name": "ranged_damage",
@@ -66,19 +65,19 @@
         },
         {
             "name": "ranged_speed",
-            "value": 0
+            "value": 0.2
         },
         {
             "name": "chargeability",
-            "value": 1.1
+            "value": 1.3
         }
     ],
     "textures": {
         "all": {
             "lite_texture": "high_contrast",
             "highlight": false,
-            "broken_color": "#D5FFCC",
-            "normal_color": "#D5FFCC",
+            "broken_color": "#468C75",
+            "normal_color": "#468C75",
             "texture_domain": "silentgear",
             "texture_suffix": "generic_hc"
         }
@@ -87,6 +86,10 @@
         {
             "level": 2,
             "name": "silentgear:malleable"
+        },
+        {
+            "level": 2,
+            "name": "silentgear:lustrous"
         }
     ],
     "type": "silentgear:main"

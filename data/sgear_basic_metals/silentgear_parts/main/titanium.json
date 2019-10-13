@@ -4,29 +4,28 @@
     },
     "crafting_items": {
         "normal": {
-            "tag": "forge:ingots/platinum"
+            "tag": "forge:ingots/titanium"
         },
         "small": {
             "size": 9,
-            "tag": "forge:nuggets/platinum"
+            "tag": "forge:nuggets/titanium"
         }
     },
     "name": {
-        "name": "Platinum",
-        "translate": false
+        "text": "Titanium"
     },
     "stats": [
         {
             "name": "durability",
-            "value": 900
+            "value": 1600
         },
         {
             "name": "armor_durability",
-            "value": 21
+            "value": 37
         },
         {
             "name": "enchantability",
-            "value": 14
+            "value": 12
         },
         {
             "name": "harvest_level",
@@ -34,15 +33,15 @@
         },
         {
             "name": "harvest_speed",
-            "value": 12
+            "value": 8
         },
         {
             "name": "melee_damage",
-            "value": 4
+            "value": 6
         },
         {
             "name": "magic_damage",
-            "value": 4
+            "value": 1
         },
         {
             "name": "attack_speed",
@@ -50,15 +49,15 @@
         },
         {
             "name": "armor",
-            "value": 18
+            "value": 24
         },
         {
             "name": "armor_toughness",
-            "value": 2
+            "value": 4
         },
         {
             "name": "magic_armor",
-            "value": 12
+            "value": 4
         },
         {
             "name": "ranged_damage",
@@ -66,7 +65,7 @@
         },
         {
             "name": "ranged_speed",
-            "value": 0
+            "value": -0.2
         },
         {
             "name": "chargeability",
@@ -76,9 +75,9 @@
     "textures": {
         "all": {
             "lite_texture": "high_contrast",
-            "highlight": true,
-            "broken_color": "#B3B3FF",
-            "normal_color": "#B3B3FF",
+            "highlight": false,
+            "broken_color": "#2E4CE6",
+            "normal_color": "#2E4CE6",
             "texture_domain": "silentgear",
             "texture_suffix": "generic_hc"
         }
